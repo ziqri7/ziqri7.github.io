@@ -1,0 +1,8 @@
+{
+  "name": "ziqri-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual portfolio for Moch Syafaat Ziqri",
+  "type": "module",
+  "scripts": { "build": "node build.mjs", "dev": "node build.mjs && node server.mjs", "start": "node server.mjs", "check": "node --check build.mjs && node --check src/home.mjs && node --check src/app.js && node --check src/theme.js && node --check server.mjs" }
+}
